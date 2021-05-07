@@ -45,8 +45,8 @@ public class MainActivity extends AppCompatActivity {
             //clear all the previous data from the adapter
             myAdapter.clear();
             // If there is a valid list of {@link Earthquake}s, then add them to the adapter's
-            // data set. This will trigger the ListView to update.
-            if (earthquakeData!= null && !earthquakeData.isEmpty()) {
+                // data set. This will trigger the ListView to update.
+                if (earthquakeData!= null && !earthquakeData.isEmpty()) {
                 myAdapter.addAll(earthquakeData);
             }
             spinner.setVisibility(View.GONE);
